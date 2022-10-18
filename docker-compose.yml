@@ -8,7 +8,7 @@ services:
     volumes:
       - .:/data
     ports:
-      - "5008:5008"
+      - "5000:5000"
 
   db:
     image: mysql:5.7
